@@ -1,0 +1,15 @@
+{
+  "name": "zanime-api",
+  "version": "1.0.0",
+  "description": "Drop-in replacement for aniwatchtv.to scraper. Powered by AniList + Jikan + TMDB. Returns the exact same JSON shape as hd1server.vercel.app/api so it works seamlessly with Z-Anime.",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vercel dev",
+    "deploy": "vercel --prod"
+  },
+  "engines": {
+    "node": ">=18.x"
+  },
+  "dependencies": {}
+}
